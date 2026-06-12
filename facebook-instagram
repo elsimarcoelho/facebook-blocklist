@@ -1,0 +1,69 @@
+# ============================================
+# Facebook & Instagram Blocklist (Safe for WhatsApp)
+# ============================================
+# This list blocks Facebook and Instagram services
+# WITHOUT breaking WhatsApp functionality.
+# Maintained by: [Seu nome]
+# Last updated: 2026-06-12
+# ============================================
+
+# -- Main Domains --
+facebook.com
+www.facebook.com
+web.facebook.com
+facebook.net
+www.facebook.net
+fb.com
+instagram.com
+www.instagram.com
+
+# -- API & Gateway --
+api.facebook.com
+graph.facebook.com
+graph-fallback.facebook.com
+z-m-graph.facebook.com
+b-graph.facebook.com
+b-graph-fallback.facebook.com
+gateway.facebook.com
+gateway-fallback.facebook.com
+web-fallback.facebook.com
+z-m-gateway.facebook.com
+dgw.c10r.facebook.com
+dgw-ig.c10r.facebook.com
+star.c10r.facebook.com
+star.fallback.c10r.facebook.com
+
+# -- Instagram Specific --
+graph.instagram.com
+test-gateway.instagram.com
+i.instagram.com
+cdninstagram.com
+scontent.cdninstagram.com
+*.cdninstagram.com
+
+# -- CDN & Content (Images/Videos) --
+fbcdn.net
+*.fbcdn.net
+connect.facebook.net
+*.xx.fbcdn.net
+scontent.xx.fbcdn.net
+scontent.f*.fna.fbcdn.net
+video.f*.fna.fbcdn.net
+
+# -- Other Facebook Services --
+alpha.facebook.com
+trunkstable.facebook.com
+z.facebook.com
+snaptu-d.facebook.com
+snaptu-z.facebook.com
+graph.fbpigeon.com
+facebooklogin.intelbras.com.br
+
+# -- Shared Meta Infrastructure (Safe to block) --
+# These are for Facebook/Instagram, not WhatsApp messaging
+z-p4-graph.facebook.com
+z-p42-chat-e2ee-ig.facebook.com
+z-p42-chat-e2ee-ig-fallback.facebook.com
+chat-e2ee-ig-p42.c10r.facebook.com
+pull-cmaf-f16-tt02-tt03.fcdn.eu.tiktokcdn.com
+pull-flv-f77-tt03-expt.fcdn.eu.tiktokcdn.com
